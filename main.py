@@ -9,9 +9,16 @@ def getCheese():
 def getSauce():
     return 'some basic Marinara sauce'
 
+    
+import random
+
+def getPepperoni():
+    return '%d pepperoni slices' % random.randrange(3, 10)
+
 def getIngredients():
     return [
         getCheese(),
+        getPepperoni(),
         getSauce()
     ]
 
