@@ -8,6 +8,9 @@ def getCheese():
 
 def getSauce():
     return 'some basic Marinara sauce'
+    
+def getSausage():
+    return "some sausage bruh"
 
     
 import random
@@ -17,6 +20,7 @@ def getPepperoni():
 
 def getIngredients():
     return [
+        getSausage(),
         getCheese(),
         getPepperoni(),
         getSauce()
