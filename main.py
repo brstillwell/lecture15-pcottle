@@ -20,12 +20,6 @@ import random
 def getPepperoni():
     return '%d pepperoni slices' % random.randrange(3, 400)
 
-def getPepperoni():
-<<<<<<< HEAD
-    return '%d pepperoni slices' % random.randrange(3, 400)
-=======
-    return '%d pepperoni slices' % random.randrange(3, 200)
->>>>>>> origin/morePepperoni
 
 def getIngredients():
     return [
