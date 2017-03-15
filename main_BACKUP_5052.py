@@ -18,14 +18,22 @@ def getSausage():
 import random
 
 def getPepperoni():
+    return '%d pepperoni slices' % random.randrange(3, 10)
+
+def getPepperoni():
     return '%d pepperoni slices' % random.randrange(3, 400)
 
 def getIngredients():
     return [
         getSausage(),
         getCheese(),
+<<<<<<< HEAD
+        getPepperoni(),
+        getSauce()
+=======
         getSauce(),
         getPepperoni()
+>>>>>>> origin/evenMorePepperoni
     ]
 
 def printPizza():
